@@ -59,7 +59,7 @@ export const PLANS: Plan[] = [
   },
   {
     name: "Diamante",
-    frequency: "7 treinos por semana",
+    frequency: "6 treinos por semana",
     premiumPrice: "150",
     altPrice: "120",
   },

@@ -2,10 +2,6 @@ import Image from "next/image";
 import fs from "node:fs";
 import path from "node:path";
 
-// Assim que você me enviar o arquivo da logo, salve-o em:
-//   public/logo.png  (ou logo.svg)
-// Este componente detecta o arquivo automaticamente e passa a exibi-lo
-// no lugar do wordmark de texto abaixo — não precisa mexer em mais nada.
 const LOGO_CANDIDATES = ["logo.svg", "logo.png", "logo.webp"];
 
 function findLogoFile() {
@@ -26,9 +22,9 @@ export default function Logo({ className = "" }: { className?: string }) {
         <Image
           src={logoSrc}
           alt="MF Studio"
-          width={160}
-          height={48}
-          className="h-9 w-auto object-contain"
+          width={140}
+          height={108}
+          className="h-12 w-auto object-contain"
           priority
         />
       </span>
