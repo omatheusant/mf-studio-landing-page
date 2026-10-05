@@ -18,7 +18,7 @@ import WhatsAppFloat from "@/components/WhatsAppFloat";
 export default function Home() {
   return (
     <>
-      <Navbar logo={<Logo />} />
+      <Navbar logo={<Logo variant="icon" />} />
       <main className="flex-1">
         <Hero />
         <About />

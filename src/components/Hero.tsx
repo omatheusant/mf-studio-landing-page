@@ -1,5 +1,6 @@
 import { waLink, WA_MESSAGES } from "@/lib/site";
 import { ArrowRight, CalendarCheck2, Users, Target } from "lucide-react";
+import Logo from "./Logo";
 
 export default function Hero() {
   return (
@@ -18,7 +19,11 @@ export default function Hero() {
       />
 
       <div className="relative mx-auto max-w-5xl px-5 sm:px-8 text-center">
-        <span className="inline-flex items-center gap-2 rounded-full border border-brand-green/30 bg-brand-green/10 px-4 py-1.5 text-xs sm:text-sm font-semibold tracking-wide text-brand-green uppercase">
+        <div className="flex justify-center">
+          <Logo size="large" />
+        </div>
+
+        <span className="mt-8 inline-flex items-center gap-2 rounded-full border border-brand-green/30 bg-brand-green/10 px-4 py-1.5 text-xs sm:text-sm font-semibold tracking-wide text-brand-green uppercase">
           Studio de treinamento personalizado
         </span>
 
